@@ -150,3 +150,20 @@ header{
     font-size: 33px;
 }
 
+/* reveiw section end here */
+/* footer section start here */
+.foter{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.foter h3{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.foter span{
+    color: #FBA24F;
+}
