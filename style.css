@@ -50,4 +50,87 @@ header{
     text-transform: capitalize;
     margin-top: 25px;
 }
-.bannar-rights{}
+.about{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0px;
+
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.about-inner-width{
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.about-left img{
+    width: 80%;
+}
+.about-rights button{
+    padding: 13px 24px;
+    border: none;
+    color: white;
+    background-color: #FBA24F;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+.about-rights h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+.about-rights p{
+    font-size: 20px;
+}
+/* about section end here */
+/* recipies section start here */
+
+.recipies{
+    margin-top: 60px;
+    width: 90%;
+    margin: 0 auto;
+    
+
+}
+.receipies-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.receipies-title h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 48px;
+}
+.recepies-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  
+ 
+}
+.recepies-inner img{
+    width: 100%;
+}
+.recepies-inner{
+    box-shadow: 1px 2px 2px 2px rgb(236, 233, 233);
+    padding: 20px;
+    border-radius: 20px;
+}
+.recepies-box h3{
+    font-size: 25px;
+    line-height: 49px;
+    text-transform: capitalize;
+}
