@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./images/shapes/Group\ 8450.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 95vh;
+
+}
+
+.bannar-rights img{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 130px;
+    
+}
+.bannar-inner{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannar-left span{
+    color: #FBA24F;
+    
+}
+.bannar-left h3{
+    font-size: 40px;
+
+}
+.bannar-left p{
+    margin-top: 12px;
+    font-size: 20px;
+}
+.bannar-left button{
+    padding: 13px 30px;
+    border: none;
+    color: white;
+    background-color: #FBA24F;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.bannar-rights{}
